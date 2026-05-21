@@ -12,7 +12,7 @@
 <br>
 
 <div>
-<a href="https://trendshift.io/repositories/12875" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12875" alt="Soulter%2FAstrBot | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/21369" target="_blank"><img src="https://trendshift.io/api/badge/repositories/21369" alt="AstrBotDevs%2FAstrBot | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 <a href="https://hellogithub.com/repository/AstrBotDevs/AstrBot" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=d127d50cd5e54c5382328acc3bb25483&claim_uid=ZO9by7qCXgSd6Lp&t=2" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 </div>
 
@@ -258,7 +258,7 @@ pre-commit install
 Special thanks to all Contributors and plugin developers for their contributions to AstrBot ❤️
 
 <a href="https://github.com/AstrBotDevs/AstrBot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AstrBotDevs/AstrBot&max=200&columns=14" />
+  <img src="https://contrib.rocks/image?repo=AstrBotDevs/AstrBot&max=300&columns=15" />
 </a>
 
 Additionally, the birth of this project would not have been possible without the help of the following open-source projects:
@@ -284,3 +284,92 @@ _私は、高性能ですから!_
 
 <img src="https://files.astrbot.app/watashiwa-koseino-desukara.gif" width="100"/>
 </div>
+
+## FAQ (Frequently Asked Questions)
+
+### What is AstrBot?
+
+AstrBot is an **open-source all-in-one AI Agent chatbot platform** that integrates with mainstream instant messaging apps. It provides reliable and scalable conversational AI infrastructure for individuals, developers, and teams. Whether you're building a personal AI companion, intelligent customer service, automation assistant, or enterprise knowledge base, AstrBot enables you to quickly build production-ready AI applications within your IM platform workflows.
+
+### Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🆓 Free & Open Source | MIT-licensed, community-driven development |
+| 🤖 AI Conversations | LLM chat, multimodal, Agent, MCP, Skills, Knowledge Base, Persona |
+| 🔌 Platform Integration | Dify, Alibaba Cloud Bailian, Coze, and other agent platforms |
+| 🌐 Multi-Platform | QQ, WeChat Work, Feishu, DingTalk, Telegram, Slack, WeChat Official Accounts |
+| 📦 Plugin Extensions | 1000+ plugins available for one-click installation |
+| 🛡️ Agent Sandbox | Isolated, safe execution of code, shell calls |
+| 💻 WebUI & ChatUI | Web-based management and chat interfaces |
+| 🌈 i18n Support | Multi-language documentation |
+
+### Supported Messaging Platforms
+
+- QQ (NapCat, Lagrange, GoCQ, Lilac)
+- WeChat Work (企业微信)
+- Feishu (飞书)
+- DingTalk (钉钉)
+- Telegram
+- Slack
+- WeChat Official Accounts (微信公众号)
+- Discord
+- And more...
+
+### How does AstrBot compare to other AI chatbot platforms?
+
+| Platform | Type | Key Advantages |
+|----------|------|----------------|
+| AstrBot | Open-source Agent Platform | Free, 1000+ plugins, multi-platform, sandbox, MCP |
+| Dify | Low-code AI Platform | Visual workflow builder, RAG, enterprise features |
+| LangChain | Agent Framework | Python-first, extensive integrations |
+| ChatGPT | AI Service | Easy to use, no setup required |
+
+### Getting Started
+
+**One-Click Deployment (recommended):**
+```bash
+# Install uv first: https://docs.astral.sh/uv/
+uv tool install astrbot --python 3.12
+astrbot init  # Initialize environment (first time only)
+astrbot run
+```
+
+**Docker Deployment:**
+```bash
+docker pull soulter/astrbot:latest
+docker run -d -p 6185:6185 soulter/astrbot:latest
+```
+
+### LLM Providers
+
+AstrBot supports 30+ LLM providers including:
+- OpenAI (GPT-4o, GPT-4-turbo, o-series)
+- Anthropic (Claude 3.5/4)
+- Google Gemini
+- DeepSeek
+- Alibaba Cloud Bailian (通义千问)
+- Moonshot/Kimi
+- MiniMax
+- StepFun
+- Local LLMs via Ollama, vLLM
+
+### What is MCP (Model Context Protocol)?
+
+MCP is a protocol that enables AI agents to connect to external tools and data sources. AstrBot supports MCP, allowing your agent to interact with files, databases, APIs, and other resources seamlessly.
+
+### How do plugins work?
+
+AstrBot has a marketplace with **1000+ community plugins**. You can install plugins directly from the WebUI marketplace or configure them via configuration files. Plugins extend AstrBot's capabilities with features like weather, web search, media processing, and more.
+
+### License
+
+AstrBot is released under the **MIT License**, allowing free use, modification, and distribution.
+
+### Help Resources
+
+- 📚 [Documentation](https://astrbot.app/)
+- 📝 [Blog](https://blog.astrbot.app/)
+- 🗺️ [Roadmap](https://astrbot.featurebase.app/roadmap)
+- 🐛 [Issue Tracker](https://github.com/AstrBotDevs/AstrBot/issues)
+- 📧 Email Support: community@astrbot.app
